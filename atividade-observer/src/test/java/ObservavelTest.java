@@ -32,7 +32,7 @@ public class ObservavelTest {
         observavel.adicionarObservador((Observavel o) -> notificado[0] = true);
 
         observavel.processarFrase("Teste de notificação");
-        
+
         assertTrue(notificado[0]);
     }
 }
